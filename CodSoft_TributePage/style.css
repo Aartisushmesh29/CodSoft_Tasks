@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-colorleft {
+  width: 50vw;
+  height: 35vh;
+  position: absolute;
+  left: 2%;
+}
+#img1 {
+  background-repeat: no-repeat;
+  left: 65%;
+  width: 550px;
+  border-radius: 20px;
+  position: absolute;
+  align-items: center;
+  top: 10vh;
+  transition: all 0.2s;
+}
+
+#img1:hover {
+  transform: scale(1.01);
+  box-shadow: -3px 1px 29.2px 4px rgb(129, 123, 123);
+  /* transition: transform .2s; */
+}
+.sush-name {
+  height: 50vh;
+  width: 20vw;
+  top: 40%;
+}
+#quote {
+  position: absolute;
+  left: 2vw;
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(10, 10, 10);
+}
+#name {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(27, 27, 27);
+  position: absolute;
+  left: 35vw;
+  top: 16vh;
+}
+.first {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(107, 160, 183), rgb(234, 245, 248));
+  padding: 100px 0 0 0;
+}
+.bio{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  height: 45vh;
+  width: 55vw;
+  /* border: 2px solid red; */
+  top: 45%;
+  left: 5%;
+  border-radius: 12px;
+  /* text-align: center; */
+  box-shadow: -3px 1px 50.3px 15px rgb(104, 125, 129);
+}
+.biography {
+  position: absolute;
+  top:2%;
+  left: 30%;
+  height: 5vh;
+  color: rgb(70, 70, 222);
+  text-decoration: underline;
+  width: 30vw;
+  font-size: 6vh;
+  font-weight: 700;
+  /* text-align: center; */
+}
+.bio-content {
+  height: 310px;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  width: 110vh;
+  font-size: 20px;
+}
+
+#hobbies {
+  border: 3px snow rgb(129, 123, 123);
+  border-radius: 10px;
+  box-shadow: -3px 1px 29.2px 4px rgb(129, 123, 123);
+  width: 28vw;
+  height: auto;
+  position: absolute;
+  top: 59vh;
+  left: 65vw;
+  padding: 25px 0 20px 0;
+}
+#hobbies_heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#hobbies_list {
+  text-align: center;
+  list-style-type: none;
+  color: rgb(32, 0, 70);
+  margin-bottom: 20px;
+}
+.hobbies_items {
+  font-weight: 200px;
+}
+
+.second {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  background: linear-gradient(90deg, rgb(229, 229, 229), rgb(234, 245, 248));
+}
+.net_worth {
+  background-color: aliceblue;
+}
+.worth_content {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.net_img {
+  background-image: linear-gradient(
+    220deg,
+    rgb(129, 170, 187),
+    rgb(255, 255, 255)
+  );
+  height: auto;
+}
+.net_content1 {
+  background-color: white;
+  padding: 25px;
+  color: rgb(0, 138, 180);
+  align-items: center;
+  font-weight: 600;
+}
+#net_content1_para {
+  background-color: azure;
+  border: 3px snow rgb(129, 123, 123);
+  box-shadow: -3px 1px 32.2px -1px rgb(114, 222, 255);
+  padding: 10px;
+}
+#net_image {
+  width: 400px;
+  position: absolute;
+  top: 14vh;
+  left: 64vw;
+  transition: all 0.2s;
+}
+#net_image:hover {
+  scale: 1.01;
+  box-shadow: -3px 1px 29.2px 4px rgb(98, 210, 239);
+}
+.mov_heading,
+.net_worth {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 1vh;
+  color: rgb(0, 106, 125);
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    rgb(107, 160, 183),
+    rgb(212, 236, 243)
+  );
+}
+.net_worth {
+  background-image: linear-gradient(
+    90deg,
+    rgb(212, 236, 243),
+    rgb(107, 160, 183)
+  );
+}
+.movies {
+  display: grid;
+  padding-top: 25px;
+  background-color: rgb(252, 252, 252);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 14px;
+  column-gap: 12px;
+}
+
+.movie1 {
+  position: relative;
+  background-color: rgb(154, 201, 203);
+  box-shadow: -3px 1px 29.2px 4px rgb(154, 201, 203);
+  width: 23vw;
+  height: 22vh;
+  transition: all 0.2s;
+}
+.movie1:hover {
+  scale: 1.01;
+}
+#movie_name {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+#mov_img1,
+#mov_img2,
+#mov_img3,
+#mov_img4,
+#mov_img5,
+#mov_img6 {
+  height: 178px;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+span {
+  font-weight: 650;
+  text-decoration: underline;
+}
+.third {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgb(231, 245, 249),
+    rgba(136, 216, 239, 0.926),
+    rgb(42, 124, 139)
+  );
+}
+.awards {
+  left: 44vw;
+  color: rgb(1, 122, 156);
+  position: absolute;
+  display: inline-block;
+  font-size: xxx-large;
+}
+.award {
+  display: grid;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 15px;
+  column-gap: 15px;
+  justify-content: start;
+  top: 10%;
+  justify-items: center;
+}
+
+.award1 {
+  background-color: rgb(196, 237, 244);
+  width: 45vw;
+}
+
+#award_img1 {
+  height: 200px;
+  width: 280px;
+  margin-top: 45px;
+  margin-left: 30px;
+  position: absolute;
+  transition: all 0.2s;
+}
+#award_img1:hover {
+  scale: 1.01;
+  box-shadow: -3px 1px 29.2px 4px rgb(98, 210, 239);
+}
+#aw_cont {
+  margin: 5vh 2vw 0 20vw;
+  font-weight: 600;
+}
+
+#footer {
+  position: absolute;
+  top: 95vh;
+  left: 2vw;
+}
+span[name="heart"] {
+  color: red;
+  text-decoration: none;
+}

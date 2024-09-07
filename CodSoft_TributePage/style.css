@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,12 +18,13 @@ body {
   position: absolute;
   align-items: center;
   top: 45px;
-  transition: all 0.2s;
+  transition: all 0.25s;
 }
 
 #img1:hover {
-  transform: scale(1.01);
   box-shadow: -3px 1px 29.2px 4px rgb(129, 123, 123);
+  scale: 1.1;
+  /* background: url(./Images/sush_img.jpg); */
   /* transition: transform .2s; */
 }
 /* .sush-name {
